@@ -6,12 +6,12 @@ def testPass(cryptPass):
     for word in dictfile.readlines():
         word = word.strip('\n')
         cryptWord=crypt.crypt(word,salt)
-        if cryptPass == cryptWord:
+        if cryptPass==cryptWord:
             print('Found passed:',word)
             return
         print('Found passed: ', word)
         return
-    print('Password not found! ')
+    print('Password not found! ') 
     return
 def main():
     passfile=open('password.txt','r')

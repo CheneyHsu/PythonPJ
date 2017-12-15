@@ -1,2 +1,4 @@
 {
+  //  "python.formatting.yapfPath": "/Users/cheneyhsu/Library/Python/2.7/lib/python/site-packages/yapf",
+    "python.formatting.provider": "yapf"
 }
